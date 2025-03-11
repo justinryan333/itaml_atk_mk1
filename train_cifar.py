@@ -29,12 +29,12 @@ class args:
 
     checkpoint = "results/cifar100/meta2_cifar_T10_71"
     savepoint = "models/" + "/".join(checkpoint.split("/")[1:])
-    data_path = "../Datasets/CIFAR10/"
+    data_path = "C:/Users/justi/PycharmProjects/iTAML_ATK_Mk1"  # simply use "poisoned_datasets" for adversarial attacks
     num_class = 10
     class_per_task = 2
     num_task = 5
     test_samples_per_class = 1000
-    dataset = "cifar10"
+    dataset = "cifar10poison"
     optimizer = "radam"
     
     epochs = 70
